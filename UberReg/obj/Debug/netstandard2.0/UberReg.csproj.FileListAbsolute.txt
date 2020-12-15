@@ -1,0 +1,1 @@
+/Users/ngy48/Projects/UberReg/UberReg/obj/Debug/netstandard2.0/UberReg.csprojAssemblyReference.cache

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UberReg.Views.RegistrationPage">
+<StackLayout Padding="0">
+    <Grid>
+
+        <StackLayout Padding="0" Margin="0">
+            <Frame BackgroundColor="Black" HeightRequest="40" HorizontalOptions="FillAndExpand">
+            <Label Text="Uber Guard" FontSize="Title" TextColor="White">
+            </Label>
+            </Frame>
+            </StackLayout>
+
+        <StackLayout Margin="0,90,0,0">
+            <Frame BackgroundColor="White" HeightRequest="700">
+
+        <ScrollView>
+            <StackLayout>
+                    <Label Text="Register a new compansion" FontSize="Body" TextColor="Black">
+                    </Label>
+
+                    <Label Text="User will have to confirm this link on their device" FontSize="Body">
+                    </Label>
+
+                <Grid Margin="20,0,20,0" VerticalOptions="StartAndExpand" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0">
+                        <Entry Placeholder="First Name" FontSize="16" x:Name="EntryFirstName"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1">
+                        <Entry Placeholder="Last Name" FontSize="16" x:Name="EntryLastName"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="2">
+                        <Entry Placeholder="Users Uber Account" FontSize="16" x:Name="EntryUsersUberAccount"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="3" Margin="0,300,0,0">
+                          <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="200" TextColor="White" BackgroundColor="Black"  Clicked="Handle_Clicked"/>
+                    </StackLayout>
+
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+ 
+            </Frame>
+        </StackLayout>
+
+    </Grid>
+</StackLayout>
+
+</ContentPage>

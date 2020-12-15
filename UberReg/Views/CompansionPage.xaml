@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UberReg.Views.CompansionPage">
+    <ContentPage.Content>
+    <StackLayout Padding="0">
+        <StackLayout Padding="0" Margin="0">
+            <Frame BackgroundColor="Black" HeightRequest="40" HorizontalOptions="FillAndExpand">
+            <Label Text="Uber Guard" FontSize="Title" TextColor="White">
+            </Label>
+
+            </Frame>
+
+            <Label Text="Who are you odering from?" TextColor="Black" FontSize="Large">
+            </Label>
+
+        <Label Text="Register a new companion" FontSize="Large">
+
+        </Label>
+
+        <Button Text="Continue" HorizontalOptions="CenterAndExpand" WidthRequest="200" TextColor="White" BackgroundColor="Black"  Clicked="Handle_Clicked" Margin="10,500,10,10"/>
+
+
+            </StackLayout>
+
+
+       
+      
+
+        </StackLayout>  
+    </ContentPage.Content>
+</ContentPage>
